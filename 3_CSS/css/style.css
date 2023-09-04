@@ -13,3 +13,52 @@ P{
 /*Algum  comentário */
 /*Mais um comentário */
 /*Terceiro comentário */
+
+.paragraph{
+
+    background-color: black;
+    color:aqua;
+    padding:5px;
+}
+
+#exclusive-title{
+    background-color: purple;
+    color:yellow;
+    padding: 10px;
+    font-size:40px;
+
+}
+
+/* Ordem das Regras */
+
+h2{
+
+    border-bottom: 2px solid red;
+}
+
+.titulo{
+
+   border-bottom: 3px solid rgb(64, 0, 255); 
+}
+
+#algum-titulo{
+
+    border-bottom: 3px solid rgb(18, 151, 49) ;
+}
+
+/*Nome de core */
+
+.color-name{
+
+    color:red;
+}
+
+/* Hex */
+.hex{
+    color: #55a355;
+}
+
+.hex-2{
+
+    color:#1c8a94;
+}
