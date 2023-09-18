@@ -79,6 +79,82 @@
                 <label for="password">Digite sua senha</label>
                 <input type="password" name="password">
             </div>
+        <!--14 radio button-->
+        <div>
+            <label for="car_model">Escolha o modelo do seu carro:</label>
+            <div class="radio">
+               <input type="radio" value="bmw" name="car_model">
+               <label for="bmw">BMW</label>
+            </div>
+            <div class="radio">
+                <input type="radio" value="ferrari" name="car_model">
+                <label for="ferrari">Ferrari</label>
+             </div>
+             <div class="radio">
+                <input type="radio" value="renault" name="car_model">
+                <label for="renault">Renault</label>
+             </div>
+        </div>
+        <!--15 - Checkbox-->
+        <div>
+            <label for="optionals">Opcionais do carro:</label>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="turbo_engire">
+                <label for="turbo_engine">Motor Turbo</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="hybrid">
+                <label for="hybrid">Híbrido</label>
+            </div>
+            <div class="radio">
+                <input type="checkbox" name="optionals[]" value="big_tires">
+                <label for="big_tires">Pneus Grandes</label>
+            </div>
+        <!--16 - input date-->
+            <div>
+                <label for="birthday">Data de Nascimento:</label>
+                <input type="date" name="birthday">
+            </div>
+        </div>
+        <!--17 - Enviar Arquivos-->
+        <div>
+            <label for="image">Insira sua imagem</label>
+            <input type="file" name="image">
+        </div>
+        <!--18 - Input Number-->
+        <div>
+            <label for="salary">Quanto você ganha no seu emprego atual?</label>
+            <input type="number" name="salary">
+        </div>
+
+         <!--19 - Input Email-->
+         <div>
+            <label for="email">Insira eu email.</label>
+            <input type="email" name="email">
+        </div>
+
+        <!--20 -  value-->
+        <div>
+            <label for="value">Digite algum valor</label>
+            <input type="text" value="O meu valor é este" name="value">
+        </div>
+        <!--21 - Disabled-->
+        <div>
+            <p>Tente mudar o valor</p>
+            <input type="text" value="Não precisa preencher" disabled  name="value">
+        </div>
+        <!--22 Placeholder-->
+        <div>
+            <label for="currentjob">Digite sua profissão</label>
+            <input type="text" name="currentjob" placeholder="No que você está trabalhando agora?">
+        </div>
+
+        <!-- 23- Atributo Required (Obrigatórios)-->
+        <div>
+            <label for="birthday">Ano de Nascimento</label>
+            <input type="text" placeholder="Digite o ano em que você nasceu" required>
+        </div>
+
         <!--13 Reset-->
        <input type="reset" value="limpar">
        <!--5 - envio de form-->
