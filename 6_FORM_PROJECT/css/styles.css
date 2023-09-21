@@ -144,14 +144,16 @@ textarea{
     cursor:pointer;
     text-transform: uppercase;
     transition:0.5s;
+    border-radius: 20px;
 
 }
 
 .btn_submit:hover{
 
-    background-color: #4dbf0a;
+    background-color: #300a7b;
     border:#673ab7;
     color:#fefefe;
+
 
 
 }
