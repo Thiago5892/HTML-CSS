@@ -17,6 +17,7 @@ p{
 
 
 /* Navbar */
+
 .navbar-container{
   width:100%;
   height:80px;
@@ -70,3 +71,54 @@ nav{
   background-color: #fff;
 
  }
+
+ /*  main banner */
+
+ .main-banner{
+background-size: cover;
+background-image: url("../img/mainbanner.png");
+background-position: center;
+padding:10rem 0;
+ }
+
+.main-banner h1,
+.main-banner p{
+    color:#fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: #000 3px/*Deslinhaamento vertical*/ 2px/*horizontal*/ 3px;/*espalhamento*/        /*Sobmtreado atras nas letras*/
+  }
+
+  .main-banner h1{
+    font-size:54px;
+  }
+
+  .main-banner p{
+    font-size: 32px;
+
+  }
+
+
+  /*Services*/
+
+  .services-container{
+    padding:5rem 0;
+  }
+
+  .services-container ul{
+
+    display:flex;
+    width:90%;
+    margin:0 auto;
+  }
+
+  .services-container li{
+    flex:1 /*Proporção quando o site aumentar*/ 1 200px; /*Todos eles tem a mesma largura*/
+    list-style: none;
+    text-align: center;
+  }
+
+
+
+
+ 
