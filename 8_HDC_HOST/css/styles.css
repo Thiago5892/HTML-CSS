@@ -310,7 +310,7 @@ padding:10rem 0;
   font-size:16px;
   border-radius: 5px;
   border:1px solid #ccc;
-  margin: 0/*TOPO*/ 10px/*LATERAIS*/ 20px/*EMBAIXO*/
+  margin: 0/*TOPO*/ 10px/*LATERAIS*/ 20px;/*EMBAIXO*/
 }
 
 .contact-container textarea{
@@ -337,3 +337,85 @@ footer{
     font-weight: bold;
     margin:50px 0 100px;
 }
+
+
+/* responsividade */
+
+/*small Laptops a partir de 1100px*/
+@media(max-width:110px){
+
+  .plans-container{
+  width:95%;
+}
+
+.plan{
+  margin:0 25px;
+}
+
+}
+
+/* tablet 900px */
+@media(max-width:900px){
+  .main-banner p{
+    font-size: 32px;
+    
+  }
+
+  .searchdomain-container{
+    padding:2rem 4rem; /*Diminuindo os paddings na caixa domínio*/
+  }
+}
+
+/* celular 576 */
+@media(max-width:576px){
+  html, 
+  body{
+    overflow-x: hidden; /*Tudo o que passar da tela, passará escondido*/
+  }
+
+  .navbar-items li{
+
+    font-size: 12px;
+    margin-left: 10px;
+
+  }
+
+  .main-banner p{
+
+    padding:2rem;
+    margin-left: 10px;
+
+  }
+
+  .services-container ul{
+    flex-direction: column;/*Divs uma amabixo da outra*/
+  }
+
+  .plans-container{
+    flex-direction:column; /*Isso faz com que fique um em maixo do outro*/
+    width: 100%;
+    padding:0 2rem;
+  }
+
+  .plan{
+    width:100%;
+    max-width:100%;
+    margin-bottom: 15px;
+  }
+
+/*Espaçando o textarea*/
+.conmtact-container{
+  padding:3rem 2rem; 
+}
+
+.contact-container input,
+.contact-container textarea{
+
+  width:100%;
+  margin:10px 0;
+  
+}
+
+}
+
+
