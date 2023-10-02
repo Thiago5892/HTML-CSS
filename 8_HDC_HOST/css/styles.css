@@ -374,6 +374,26 @@ footer{
   }
 
   .navbar-items li{
+    font-size: 12px;/*Diminui um pouco os links da barra de navegação*/
+    margin-left: 10px;
+
+  }
+  .services-container ul{
+
+    flex-direction:column;
+  }
+
+  .plans-container{
+    flex-direction: column;
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .main-banner p{
+    padding:0 2rem;
+  }
+
+  .navbar-items li{
 
     font-size: 12px;
     margin-left: 10px;
@@ -385,6 +405,13 @@ footer{
     padding:2rem;
     margin-left: 10px;
 
+  }
+  .searchdomain-container h2{
+    font-size: 28px;
+  }
+
+  .searchdomain-container input[type="text"]{
+    width: 100%;
   }
 
   .services-container ul{
